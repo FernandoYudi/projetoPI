@@ -1,0 +1,11 @@
+query{
+  allFile{
+    edges{
+      node{
+        name
+        extension
+        dir
+      }
+    }
+  }
+}
