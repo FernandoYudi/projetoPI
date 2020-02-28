@@ -1,12 +1,23 @@
-import React from 'react';
+import React from 'react'
+import { Link, graphql, useStaticQuery } from 'gatsby'
 
 const Footer = () => 
 {
+    const data = useStaticQuery(graphql`
+     query{
+        site{
+           siteMetadata{
+               author
+           }
+       }
+    }
+    `)
     return (
         <footer>
-            <p>Created by Fer, © 2020</p>
+            <p>{data.site.siteMetadata.author}</p>
         </footer>
     )
 }
 
-export default Footer;
+
+export default Footer

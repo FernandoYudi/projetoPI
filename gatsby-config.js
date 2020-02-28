@@ -5,5 +5,12 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: 'Blog-FL',
+    author:'Created by Fernando Yudi Kikuchi, © 2020'
+  },
+  
+  plugins: [
+    'gatsby-plugin-sass'
+  ]
 }
