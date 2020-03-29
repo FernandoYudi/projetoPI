@@ -1,3 +1,5 @@
+GRAPHQL
+* Todos arquivos do projeto
 query{
   allFile{
     edges{
@@ -9,3 +11,97 @@ query{
     }
   }
 }
+
+
+*Markdown, posts
+
+query{
+ allMarkdownRemark{
+  edges{
+    node{
+      frontmatter{
+        title
+        date
+      }
+      html
+      excerpt
+    }
+  }
+ }
+}
+
+query {
+  allMarkdownRemark { 
+  edges {
+    node {
+      fields {
+        slug 
+        
+      }
+    }
+   }
+  }
+}
+
+query{
+  markdownRemark (
+    fields: {
+      slug: {
+        eq:"react"
+      }
+    }
+  ){
+    frontmatter{
+      title
+    }
+  }
+}
+
+
+const data = useStaticQuery (graphql`
+*COMANDO*
+`)
+
+conts something = () => {
+ return (
+    codigo
+  )
+} 
+
+import { Link } from 'gatsby'
+
+import React from 'react'
+
+import {graphql, useStaticQuery} from 'gatsby'
+
+
+<p></p>paragrafo
+<h1></h1>cabecalho
+<h2></h2>titulo
+<nav></nav>links de navegacao
+<ul></ul>lista desordenada / rigida / estatica
+<li></li> lista
+<ol></ol>lista ordenada
+
+*slugs para cada post**blogpages*
+query{
+ allMarkdownRemark{
+  edges{
+    node{
+      frontmatter{
+        title
+        date
+      }
+      html
+      excerpt
+      fields{
+        slug
+      }
+    }
+  }
+ }
+}
+
+3:39
+
+npm install gatsby-plugin-sharp@2.0.32 gatsby-remark-image@3.0.10 gatsby-remark-relative-images@0.2.2

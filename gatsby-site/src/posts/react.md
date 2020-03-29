@@ -1,5 +1,5 @@
 ---
-title: "First post"
+title: "React"
 date: "28/02/2020"
 ---
 
@@ -7,5 +7,6 @@ date: "28/02/2020"
 
  ## Topics
 
- 1. CSGO
- 2. Whatever
+ 1. React
+ 2. MarkDown
+ 3. Slug
