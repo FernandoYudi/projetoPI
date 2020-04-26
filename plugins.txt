@@ -1,0 +1,15 @@
+https://www.gatsbyjs.org/packages/gatsby-transformer-remark/?=sas
+https://www.gatsbyjs.org/packages/gatsby-source-filesystem/?=remark
+https://www.gatsbyjs.org/packages/gatsby-plugin-sass/?=saas
+https://www.gatsbyjs.org/packages/gatsby-plugin-sharp/
+https://www.gatsbyjs.org/packages/gatsby-remark-relative-images/
+https://www.gatsbyjs.org/packages/gatsby-remark-images/
+https://www.npmjs.com/package/typescript
+https://www.npmjs.com/package/fsevents
+https://www.gatsbyjs.org/packages/gatsby-source-contentful/
+https://www.gatsbyjs.org/packages/gatsby-plugin-react-helmet/
+npm install @contentful/rich-text-react-renderer
+https://app.contentful.com/?login=1
+
+
+GRAPHQL PLAYGROUND = env-cmd -f .env.development gatsby develop

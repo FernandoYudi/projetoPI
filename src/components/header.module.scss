@@ -1,0 +1,81 @@
+// .header {
+//      display: flex;
+//      justify-content: space-between;
+//      align-items: center;
+//      padding: 30px 10%;
+// }
+
+// .logo {
+//      cursor: pointer;
+// }
+
+// .nav__links {
+//      list-style: none;
+// }
+
+// .nav__links li {
+//      display: inline-block;
+//      padding: 0px 20px;
+// }
+
+// .nav__links li a {
+//      transition: all 0.3s ease 0s;
+// }
+
+// .nav__links li a:hover {
+//     color: #0088a9;
+// }
+
+// button {
+//      padding: 9px 25px;
+//      background-color: rgba(0,136,169,1);
+//      border: none;
+//      border-radius: 50px;
+//      cursor: pointer;
+//      transition: all 0.3s ease 0s;
+// }
+
+// button:hover {
+//      background-color: rgba(0,136,169,0.8);
+// }
+
+.header{
+     padding: 1rem 0 1rem;
+     justify-content: center;
+     justify-items: flex-end;
+     margin: 0;
+     transform: scale(1.1);
+     transform-origin: 0 0;
+ }
+
+.title{
+ color: #000000;
+ font-Size: 3rem;
+ justify-content: center;
+}
+
+.nav-list{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  text-decoration: none;
+}
+
+.nav-item {
+     color: #808080;
+     font-size: .9rem;
+     margin-right: 1.3rem;
+     text-decoration: none;
+}
+.nav-item:hover {
+     color: #666666
+}
+
+.active-nav-item{
+     color: #01024b;
+}
+
+
+
+
+//custom cabecalho
