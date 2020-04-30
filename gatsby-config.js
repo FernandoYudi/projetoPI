@@ -15,8 +15,8 @@
     {
       resolve:'gatsby-source-contentful',
       options: {
-          spaceId: process.env.CONTENTFUL_SPACE_ID,
-          accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
+          spaceId:'m877ax25ibip', //process.env.CONTENTFUL_SPACE_ID,
+          accessToken:'MTLYXgIAWeRkS5sHIn2wCINfxQQgee5eQWufa2NU8hU', //process.env.CONTENTFUL_ACCESS_TOKEN,
       }
     },    
     'gatsby-plugin-sass',
@@ -45,5 +45,3 @@
   }
  ]
 }
-
-//

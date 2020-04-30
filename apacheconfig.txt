@@ -1,0 +1,14 @@
+APACHE2 WEBSERVICE
+sudo apt-get update
+sudo apt-get install apache2
+
+Firewall/SUDO UBUNTU
+
+sudo apt-get install ufw
+sudo ufw status
+
+IN PUTTY TERMINAL
+
+cd /var/www
+ll
+
