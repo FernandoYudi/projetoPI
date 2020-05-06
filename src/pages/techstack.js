@@ -16,6 +16,7 @@ const TechPage = () => {
                    <li>
                      <h2>Operational System</h2>
                      <p>Windows 10 Pro</p>
+                     <p>Linux Ubuntu 18.04</p>
                    </li>
                    <li>
                      <h2>Development/Application Platforms</h2>
@@ -28,6 +29,9 @@ const TechPage = () => {
                    <li>
                      <h2>Database System</h2>
                      <p>Git Bash</p>
+                     <p>Apache2</p>
+                     <p>PuTTY</p>
+                     <p>FilleZilla FTS</p>
                    </li>
               </ol>
         </Layout>
