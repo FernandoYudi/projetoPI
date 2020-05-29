@@ -19,29 +19,29 @@ const Header = () => {
    return (
     <header className={headerStyles.header}>
            <h1>
-               <Link className = {headerStyles.title} to='/'>
+               <Link className = {headerStyles.title} to='../fertrab/'>
                    {data.site.siteMetadata.title}
                 </Link>
                </h1>
            <nav>
                <ul className = {headerStyles.navList}>
                    <li>
-                      <Link className ={headerStyles.navItem} activeClassName = {headerStyles.activeNavItem} to ='/'>Home</Link>
+                      <Link className ={headerStyles.navItem} activeClassName = {headerStyles.activeNavItem} to ='../fertrab/'>Home</Link>
                    </li>
                    <li>
-                       <Link className ={headerStyles.navItem} activeClassName = {headerStyles.activeNavItem} to ='/blog'>Blog</Link>
+                       <Link className ={headerStyles.navItem} activeClassName = {headerStyles.activeNavItem} to ='../fertrab/blog/'>Blog</Link>
                    </li>
                    <li>
-                      <Link className ={headerStyles.navItem} activeClassName = {headerStyles.activeNavItem} to ='/projects'>Projetos</Link>
+                      <Link className ={headerStyles.navItem} activeClassName = {headerStyles.activeNavItem} to ='../fertrab/projects/'>Projetos</Link>
                    </li>
                    <li>
-                       <Link className ={headerStyles.navItem} activeClassName = {headerStyles.activeNavItem} to='/about'>About</Link>
+                       <Link className ={headerStyles.navItem} activeClassName = {headerStyles.activeNavItem} to='../fertrab/about/'>About</Link>
                    </li>
                    <li>
-                      <Link className ={headerStyles.navItem} activeClassName = {headerStyles.activeNavItem} to='/contact'>Contact</Link> 
+                      <Link className ={headerStyles.navItem} activeClassName = {headerStyles.activeNavItem} to='../fertrab/contact/'>Contact</Link> 
                    </li>
                    <li>
-                      <Link className ={headerStyles.navItem} activeClassName = {headerStyles.activeNavItem} to ='/techstack'>Tech Stack</Link>
+                      <Link className ={headerStyles.navItem} activeClassName = {headerStyles.activeNavItem} to ='../fertrab/techstack/'>Tech Stack</Link>
                    </li>
                </ul>
            </nav>

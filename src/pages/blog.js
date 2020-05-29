@@ -48,7 +48,7 @@ const BlogPage = () => {
         {data.allContentfulBlogPost.edges.map((edge) => {
            return (
              <li className={blogStyles.post}>
-               <Link to={`/blog/${edge.node.slug}`}>
+               <Link to={`/fertrab/blog/${edge.node.slug}`}>
                <h2>{edge.node.title}</h2>
                <p>{edge.node.publishedDate}</p>
                </Link>
